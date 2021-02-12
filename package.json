@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "vuepress-theme-reco": "^1.6.4"
+    "vuepress-theme-reco": "1.6.0"
   },
   "devDependencies": {
     "vuepress": "^1.8.1"
@@ -8,5 +8,10 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  }
+  },
+  "name": "SimFlight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ScottMark <xiaoma_hebut@163.com>",
+  "license": "MIT"
 }
