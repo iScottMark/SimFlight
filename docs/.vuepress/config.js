@@ -26,11 +26,26 @@ module.exports = {
     
     // default-theme
     nav: [
-      { text: '主页', link: '/' },
-      { text: '进度', link: '/scheme/' },
+      { text: '主页', link: '/', icon: 'reco-home'},
+      { text: '笔记', link: '/note/', icon: 'reco-tag' },
+      { text: '资料', link: '/material/', icon: 'reco-document' },
     ],
     sidebar: {
-      '/scheme/': ['', ],
+      '/note/': noteSidebarConf(),
+      '/material/': materialSidebarConf(),
     },
   },
+}
+
+function noteSidebarConf() {
+  return [
+    '',
+
+  ];
+}
+
+function materialSidebarConf() {
+  return [
+    '',
+  ];
 }
